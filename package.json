@@ -4,8 +4,7 @@
   "description": "plasma bank application",
   "main": "server.js",
   "scripts": {
-    "serve": "nodemon server.js",
-    "start": "node index.js"
+    "serve": "nodemon server.js"
   },
   "author": "Aditi Patidar",
   "license": "ISC",
