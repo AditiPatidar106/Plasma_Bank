@@ -1,0 +1,128 @@
+*::before,*::after{box-sizing:border-box}
+html{
+    font-family:sans-serif;line-height:1.15;
+    width: 100%;
+}
+
+nav {
+    height: 50px;
+    background-color:black;
+    margin-right: 0;
+    width: 100%;
+    display: flexbox;
+
+}
+
+nav ul li{
+    list-style-type:none;
+    width: 200px;
+    float: left;
+    text-align:center ;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#d8204c;
+    line-height: 70px;
+    display: block;
+}
+li a:hover{
+    
+    
+    font-family: RobotoBlack,sans-serif;
+    border-bottom: solid 6px #d8204c;
+}  
+body{
+    margin:0;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";font-size:1rem;font-weight:400;
+    line-height:1.5;
+    color:#212529;
+    text-align:left;
+    background-color:#fff;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+hr{
+    box-sizing:content-box;
+    height:0;
+    overflow:visible;
+}
+h1,h2,h3,h4,h5,h6{
+    margin-top:0;
+    margin-bottom:.5rem;
+}
+
+.banner{
+    display:flex;
+    justify-content:center;
+    height:40px;
+    background-color:#d8204c;
+}
+.banner .text{
+    display:flex;
+    justify-content:flex-start; 
+    align-items:center; 
+    padding-left:15px;
+    padding-right:15px;
+    font-size:19px;
+    font-weight:bold;
+    background-color:#fff;
+    color:#231f20;
+}
+
+.banner .middle-banner .text{
+    justify-content:flex-start;
+    margin-left:60px;
+    font-size:19px;
+}
+
+.banner .text{
+    padding-left:20px;
+    font-size:32px;
+}
+.middle-banner{
+    margin-bottom:30px
+}
+
+.leftside{
+    width: 35%;
+    float: left;
+    display: block;
+    padding-left: 10px;
+    padding-top: 40px;
+    margin-left: 100px;
+    margin-right:10px ;
+
+} 
+ .rightside{
+    width: 40%;
+    float: right;
+    display: block;
+    padding-left: 20px;
+    padding-top: 40px;
+    margin-left: 10px;
+    margin-right:100px ;
+}  
+.foot{
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: rgb(230, 230, 230);
+}
+
+.link{
+    color: #d8204c;
+    font-size: x-large;
+    
+}
+.link:hover{
+    text-decoration: #d8204c;
+    color: black;
+}
+.cont{
+    width: 50%;
+}

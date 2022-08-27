@@ -1,0 +1,112 @@
+*::before,*::after{box-sizing:border-box}
+html{
+    font-family:sans-serif;line-height:1.15;
+    width: 100%;
+}
+
+nav {
+    height: 50px;
+    background-color:black;
+    margin-right: 0;
+    width: 100%;
+
+}
+
+nav ul li{
+    list-style-type:none;
+    width: 200px;
+    float: left;
+    text-align:center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#d8204c;
+    line-height: 50px;
+    display: block;
+}
+
+body{
+    margin:0;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";font-size:1rem;font-weight:400;
+    line-height:1.5;
+    color:#212529;
+    text-align:left;
+    background-color:#fff;
+    width: 100%;
+}
+hr{
+    box-sizing:content-box;
+    height:0;
+    overflow:visible
+}
+h1,h2,h3,h4,h5,h6{
+    margin-top:0;
+    margin-bottom:.5rem
+}
+/* p{
+    margin-top:0;
+    margin-bottom:1rem
+} */
+
+li a:hover{
+    /* background-color: paleturquoise;
+    color:royalblue; */
+    /* margin-bottom: -6px; */
+    font-family: RobotoBlack,sans-serif;
+    border-bottom: solid 6px #d8204c;
+}  
+/* .banner{
+    display:flex;
+    justify-content:center;
+    height:40px;
+    background-color:#6ffdc5
+}
+.banner .text{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-left:15px;
+    padding-right:15px;
+    font-size:19px;
+    font-weight:bold;
+    background-color:#fff;
+    color:#231f20
+}
+@media(min-width: 576px){
+    .banner .text{font-size:28px
+    }}
+@media(min-width: 992px){
+    .banner .middle-banner{
+        justify-content:flex-start;
+        height:45px
+    }
+.banner .middle-banner .text{
+    justify-content:flex-start;
+    margin-left:60px;
+    font-size:19px
+}}
+@media(min-width: 1200px){
+    .banner{height:75px
+}
+.banner .text{
+    padding-left:30px;
+    font-size:33px
+}}
+.middle-banner{
+    margin-bottom:30px
+}
+@media(min-width: 992px){
+    .middle-banner{
+        margin-bottom:47px
+}} */
+/* .leftside{
+    width: 35%;
+    float: left;
+    display: block;
+    padding-left: 10px;
+    padding-top: 40px;
+    margin-left: 100px;
+    margin-right:10px ;
+
+} */

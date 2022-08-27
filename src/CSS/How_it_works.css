@@ -1,0 +1,81 @@
+*::before,*::after{box-sizing:border-box}
+html{
+    font-family:sans-serif;line-height:1.15;
+    font-size: 20px;
+    width: 100%;
+}
+
+nav {
+    height: 50px;
+    background-color:black;
+    margin-right: 0;
+    width: 100%;
+
+}
+
+nav ul li{
+    list-style-type:none;
+    width: 200px;
+    float: left;
+    text-align:center ;
+   
+}
+
+li a:hover{
+    
+    font-family: RobotoBlack,sans-serif;
+    border-bottom: solid 6px #d8204c;
+}  
+body{
+    margin:0;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";font-size:1rem;font-weight:400;
+    line-height:1.5;
+    color:#212529;
+    text-align:left;
+    background-color:#fff;
+    width: 100%;
+}
+
+h1,h2,h3{
+    margin-top:0;
+    margin-bottom:.5rem
+}
+p{
+    margin-top:0;
+    margin-bottom:1rem
+}
+
+.leftbox{
+    width: 40%;
+    float: left;
+    display: block;
+    padding-left: 10px;
+    padding-top: 40px;
+    margin-left: 100px;
+    margin-right:10px ;
+
+}
+
+.rightbox{
+    width: 40%;
+    float: right;
+    display: block;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-right:20px ;
+    margin-left: 10px;
+    margin-top: 100px;
+    margin-right: 100px;
+    border: 1px solid black;
+    text-justify: auto;
+
+}
+.how-container .stage .stage-text {
+    flex-basis: 100%;
+}
+.how-container .how-content .stage-text {
+    font-weight: bold !important;
+}
+.how-container .desktop .drops p{
+    width:185px;margin:0 auto;text-align:left
+}
